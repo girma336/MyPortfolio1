@@ -141,6 +141,6 @@ const dataPopover = [
 			submitForm.reset();
 		}
 		else {
-			document.querySelector('.if-false').textContent = 'Your Email Should be LowerCase letter';
+			megForError.textContent = 'Your Email Should be LowerCase letter';
 		}
 	});
